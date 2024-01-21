@@ -65,7 +65,7 @@ sections:
         - title: Sr. Data Scientist
           company: Warba Bank
           company_url: 'https://www.warbabank.com/'
-          company_logo: org-gc
+          company_logo: org-w
           location: Kuwait
           date_start: '2023-02-06'
           date_end: ''
@@ -77,9 +77,9 @@ sections:
               * DevOps
               * MVP and POC
         - title: Data Scientist 
-          company: Warba Bank``
+          company: Warba Bank
           company_url: 'https://www.warbabank.com/'
-          company_logo: org-x
+          company_logo: org-w
           location: Kuwait
           date_start: '2022-02-06'
           date_end: '2023-02-01'
@@ -87,7 +87,7 @@ sections:
         - title: Data Scientist and AI Specialist
           company: Kliky AI
           company_url: 'https://kliky.ai/en/'
-          company_logo: org-x
+          company_logo: org-k
           location: Remote - Kuwait
           date_start: '2020-12-02'
           date_end: '2022-02-01'
@@ -95,7 +95,7 @@ sections:
         - title: Chemical Engineer
           company: Bait Al Aseel for General Trading & Contracting Group 
           company_url: 'https://baitalaseel.com/'
-          company_logo: org-x
+          company_logo: org-b
           location: Kuwait
           date_start: '2018-05-01'
           date_end: '2020-12-01'
@@ -103,7 +103,7 @@ sections:
         - title: Data Analyst and Teacher Assistant - Part time
           company: Kuwait University 
           company_url: 'http://kuweb.ku.edu.kw/ku/index.htm'
-          company_logo: org-x
+          company_logo: org-ku
           location: Kuwait
           date_start: '2018-03-01'
           date_end: '2021-12-01'
