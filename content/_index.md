@@ -71,18 +71,18 @@ sections:
           date_end: ''
           description: |2-
               Responsibilities include:
-              
+
               * Deployment
               * MLOps
               * DevOps
               * MVP and POC
         - title: Data Scientist 
-          company: Warba Bank
+          company: Warba Bank``
           company_url: 'https://www.warbabank.com/'
           company_logo: org-x
           location: Kuwait
           date_start: '2022-02-06'
-          date_end: '2023-2-01'
+          date_end: '2023-02-01'
           description: Enhanced financial analytics with machine learning models, boosting conversion rates by 30% and profitability by 10%, while introducing novel customer segmentation and increasing data processing efficiency by 30%.
         - title: Data Scientist and AI Specialist
           company: Kliky AI
