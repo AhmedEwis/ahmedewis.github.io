@@ -3,7 +3,7 @@
 title: Eng. Ahmed Ewis
 
 # Name pronunciation (optional)
-name_pronunciation: Ahmed Ewis
+name_pronunciation: 
 
 # Full name (for SEO)
 first_name: Ahmed
@@ -25,26 +25,26 @@ organizations:
     url: https://www.warbabank.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Experienced Senior Data Scientist and Certified Cloud Engineer transforming business challenges into data-driven solutions with a focus on AI innovation and team leadership.
 
 # Interests to show in About widget
 interests:
+  - Data Science
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Cloud Solutions
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: MSc Chemical Engineering
+      institution: Kuwait University
+      year: 2023
+    - course: BSc in Chemical Engineering
+      institution: Kuwait University
+      year: 2018
+    # - course: BSc in Artificial Intelligence
+    #   institution: Massachusetts Institute of Technology
+    #   year: 2008
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -120,5 +120,5 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Ahmed Ewis is a Microsoft Certified Data Scientist, Google Cloud Certified Associate Cloud Engineer, and Google Professional Machine Learning Engineer with 4+ years in the field of Data Science. He specializes in deriving data-driven solutions and robust problem-solving. With proficiency in analytics and leadership, He've transformed challenges into insights. Committed to growth and bridging technical knowledge with stakeholders.
 {style="text-align: justify;"}
