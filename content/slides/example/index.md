@@ -42,7 +42,7 @@ slides:
 
 ---
 
-## Code Highlighting
+<!-- ## Code Highlighting
 
 Inline code: `variable`
 
@@ -54,17 +54,17 @@ if porridge == "blueberry":
     print("Eating...")
 ```
 
----
+--- -->
 
 ## Math
 
-In-line math: $x + y = z$
+<!-- In-line math: $x + y = z$
 
 Block math:
 
 $$
 f\left( x \right) = \;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
-$$
+$$ -->
 
 ---
 
