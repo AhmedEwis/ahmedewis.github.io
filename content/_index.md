@@ -62,27 +62,53 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
+        - title: Sr. Data Scientist
+          company: Warba Bank
+          company_url: 'https://www.warbabank.com/'
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          location: Kuwait
+          date_start: '2023-02-06'
           date_end: ''
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
+              * Deployment
+              * MLOps
+              * DevOps
+              * MVP and POC
+        - title: Data Scientist 
+          company: Warba Bank
+          company_url: 'https://www.warbabank.com/'
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: Kuwait
+          date_start: '2022-02-06'
+          date_end: '2023-2-01'
+          description: Enhanced financial analytics with machine learning models, boosting conversion rates by 30% and profitability by 10%, while introducing novel customer segmentation and increasing data processing efficiency by 30%.
+        - title: Data Scientist and AI Specialist
+          company: Kliky AI
+          company_url: 'https://kliky.ai/en/'
+          company_logo: org-x
+          location: Remote - Kuwait
+          date_start: '2020-12-02'
+          date_end: '2022-02-01'
+          description: Expert in deep learning and GANs with PyTorch, enhanced AI tasks and speech recognition accuracy using advanced models and NLP, and generated NFTs through stable diffusion on AWS SageMaker.
+        - title: Chemical Engineer
+          company: Bait Al Aseel for General Trading & Contracting Group 
+          company_url: 'https://baitalaseel.com/'
+          company_logo: org-x
+          location: Kuwait
+          date_start: '2018-05-01'
+          date_end: '2020-12-01'
+          description: Oversaw tech documentation, analyzed data for precise pricing forecasts, streamlined cost estimation with Excel, and implemented cost-reducing processes, enhancing efficiency and accuracy.
+        - title: Data Analyst and Teacher Assistant - Part time
+          company: Kuwait University 
+          company_url: 'http://kuweb.ku.edu.kw/ku/index.htm'
+          company_logo: org-x
+          location: Kuwait
+          date_start: '2018-03-01'
+          date_end: '2021-12-01'
+          description: Enhanced student learning and research efficacy with advanced data techniques, achieving significant improvements in model accuracy, process efficiency, and data accuracy.  
+
     design:
       columns: '2'
   - block: accomplishments
