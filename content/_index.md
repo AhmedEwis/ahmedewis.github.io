@@ -154,7 +154,7 @@ sections:
           organization: Microsoft
           organization_url: https://www.microsoft.com/en-ae
           title: Microsoft Certified Azure Data Scientist Associate
-          #url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+          url: ''
 
         certificate_url: https://www.coursera.org/account/accomplishments/specialization/certificate/YK5XBQKN4UKV
           date_end: ''
