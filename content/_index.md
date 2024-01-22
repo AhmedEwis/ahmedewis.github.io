@@ -156,7 +156,7 @@ sections:
           title: Microsoft Certified Azure Data Scientist Associate
           url: ''
 
-        certificate_url: https://www.coursera.org/account/accomplishments/specialization/certificate/YK5XBQKN4UKV
+        - certificate_url: https://www.coursera.org/account/accomplishments/specialization/certificate/YK5XBQKN4UKV
           date_end: ''
           date_start: '2020-09-23'
           description: ''
@@ -166,7 +166,7 @@ sections:
           title: IBM Data Science  
           url: ''
         
-        certificate_url: https://www.coursera.org/account/accomplishments/certificate/CN5XY4YGKTVY
+        - certificate_url: https://www.coursera.org/account/accomplishments/certificate/CN5XY4YGKTVY
           date_end: ''
           date_start: '2020-10-29'
           description: ''
@@ -187,7 +187,7 @@ sections:
           title: 'Convolutional Neural Networks in TensorFlow'
           url: ''
 
-        certificate_url: https://insidesherpa.s3.amazonaws.com/completion-certificates/KPMG/m7W4GMqeT3bh9Nb2c_KPMG_ta288qGvdAAwHBiPf_completion_certificate.pdf
+        - certificate_url: https://insidesherpa.s3.amazonaws.com/completion-certificates/KPMG/m7W4GMqeT3bh9Nb2c_KPMG_ta288qGvdAAwHBiPf_completion_certificate.pdf
           date_end: ''
           date_start: '2020-07-24'
           description: ''
@@ -197,7 +197,7 @@ sections:
           title: 'Data Analytics Consulting Virtual Internship'
           url: ''
 
-        certificate_url: https://verify.skilljar.com/c/79xgnqcdzous
+        - certificate_url: https://verify.skilljar.com/c/79xgnqcdzous
           date_end: ''
           date_start: '2022-11-02'
           description: ''
@@ -207,7 +207,7 @@ sections:
           title: 'ML Practitioner Certificate'
           url: ''
         
-        certificate_url: https://verify.skilljar.com/c/c7qkwxvamrox
+        - certificate_url: https://verify.skilljar.com/c/c7qkwxvamrox
           date_end: ''
           date_start: '2022-10-30'
           description: ''
