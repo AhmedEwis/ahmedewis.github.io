@@ -150,7 +150,7 @@ sections:
           date_end: ''
           date_start: '2023-04-19'
           description: Designed and prepared a machine learning solution, explored and trained models, prepared them for deployment, and managed the deployment and retraining process.
-          icon: Microsoft
+          icon: '/workspaces/ahmedewis.github.io/images/microsoft.svg'
           organization: Microsoft
           organization_url: https://www.microsoft.com/en-ae
           title: Microsoft Certified Azure Data Scientist Associate
