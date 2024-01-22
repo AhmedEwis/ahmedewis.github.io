@@ -92,7 +92,7 @@ sections:
           date_start: '2020-12-02'
           date_end: '2022-02-01'
           description: Expert in deep learning and GANs with PyTorch, enhanced AI tasks and speech recognition accuracy using advanced models and NLP, and generated NFTs through stable diffusion on AWS SageMaker.
-        - title: Chemical Engineer
+        - title: Business Development Engineer
           company: Bait Al Aseel for General Trading & Contracting Group 
           company_url: 'https://baitalaseel.com/'
           company_logo: org-b
@@ -155,16 +155,69 @@ sections:
           organization_url: https://www.microsoft.com/en-ae
           title: Microsoft Certified Azure Data Scientist Associate
           #url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-          
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
+
+        certificate_url: https://www.coursera.org/account/accomplishments/specialization/certificate/YK5XBQKN4UKV
+          date_end: ''
+          date_start: '2020-09-23'
           description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
+          icon: IBM
+          organization: IBM
+          organization_url: https://www.ibm.com/us-en
+          title: IBM Data Science  
           url: ''
+        
+        certificate_url: https://www.coursera.org/account/accomplishments/certificate/CN5XY4YGKTVY
+          date_end: ''
+          date_start: '2020-10-29'
+          description: ''
+          icon: Stanford
+          organization: Stanford University
+          organization_url: https://www.stanford.edu/
+          title: Machine Learning from Stanford University 
+          url: ''
+        
+
+        - certificate_url: https://coursera.org/share/4dfcb5e08ea964c0213a1b8b448a07b9
+          date_end: ''
+          date_start: '2021-01-08'
+          description: ''
+          icon: DeepLearning.AI
+          organization: DeepLearning.AI
+          organization_url: https://deeplearning.ai/
+          title: 'Convolutional Neural Networks in TensorFlow'
+          url: ''
+
+        certificate_url: https://insidesherpa.s3.amazonaws.com/completion-certificates/KPMG/m7W4GMqeT3bh9Nb2c_KPMG_ta288qGvdAAwHBiPf_completion_certificate.pdf
+          date_end: ''
+          date_start: '2020-07-24'
+          description: ''
+          icon: KPMG
+          organization: KPMG.
+          organization_url: https://kpmg.com/xx/en/home.html
+          title: 'Data Analytics Consulting Virtual Internship'
+          url: ''
+
+        certificate_url: https://verify.skilljar.com/c/79xgnqcdzous
+          date_end: ''
+          date_start: '2022-11-02'
+          description: ''
+          icon: dataiku
+          organization: dataiku
+          organization_url: https://www.dataiku.com/
+          title: 'ML Practitioner Certificate'
+          url: ''
+        
+        certificate_url: https://verify.skilljar.com/c/c7qkwxvamrox
+          date_end: ''
+          date_start: '2022-10-30'
+          description: ''
+          icon: dataiku
+          organization: dataiku.
+          organization_url: https://www.dataiku.com/
+          title: 'Core Designer Certificate'
+          url: ''
+
+          
     design:
       columns: '2'
   - block: collection
