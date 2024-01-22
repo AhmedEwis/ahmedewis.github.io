@@ -197,27 +197,56 @@ sections:
           title: 'Data Analytics Consulting Virtual Internship'
           url: ''
 
-        - certificate_url: https://verify.skilljar.com/c/79xgnqcdzous
+        - certificate_url: https://learn.365datascience.com/c/942dff90b5/
           date_end: ''
-          date_start: '2022-11-02'
+          date_start: '2022-10-25'
           description: ''
-          icon: dataiku
-          organization: dataiku
-          organization_url: https://www.dataiku.com/
-          title: 'ML Practitioner Certificate'
+          icon: 365datascience
+          organization: 365datascience
+          organization_url: https://learn.365datascience.com/
+          title: 'Data-Driven Business Growth'
           url: ''
         
-        - certificate_url: https://verify.skilljar.com/c/c7qkwxvamrox
+        - certificate_url: https://learn.365datascience.com/c/7849f92619/
           date_end: ''
-          date_start: '2022-10-30'
+          date_start: '2021-01-28'
           description: ''
-          icon: dataiku
-          organization: dataiku.
-          organization_url: https://www.dataiku.com/
-          title: 'Core Designer Certificate'
+          icon: 365datascience
+          organization: 365datascience.
+          organization_url: https://learn.365datascience.com/
+          title: 'Time Series Analysis with Python'
           url: ''
 
+        - certificate_url: https://learn.365datascience.com/c/d88c7f262b/
+          date_end: ''
+          date_start: '2021-01-28'
+          description: ''
+          icon: 365datascience
+          organization: 365datascience.
+          organization_url: https://learn.365datascience.com/
+          title: 'Customer Analytics in Python'
+          url: ''  
+
+        - certificate_url: https://learn.365datascience.com/c/060201857e/
+          date_end: ''
+          date_start: '2021-01-28'
+          description: ''
+          icon: 365datascience
+          organization: 365datascience.
+          organization_url: https://learn.365datascience.com/
+          title: 'SQL + Tableau + Python'
+          url: ''
           
+          
+        - certificate_url: https://learn.365datascience.com/c/df238b92c7/
+          date_end: ''
+          date_start: '2021-01-28'
+          description: ''
+          icon: 365datascience
+          organization: 365datascience.
+          organization_url: https://learn.365datascience.com/
+          title: 'Introduction to R Programming'
+          url: ''  
     design:
       columns: '2'
   - block: collection
