@@ -124,24 +124,38 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: https://www.credential.net/7120ac05-f24c-4772-8f43-28718e7732ba#gs.3dqwe2
           date_end: ''
-          date_start: '2021-01-25'
+          date_start: '2023-09-11'
           description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
-        - certificate_url: https://www.edx.org
+          icon: google
+          organization: Google
+          title: Google Cloud Certified Professional Machine Learning Engineer
+          organization_url: https://cloud.google.com/gcp?utm_source=google&utm_medium=cpc&utm_campaign=emea-emea-all-ar-bkws-all-all-trial-b-gcp-1707574&utm_content=text-ad-none-any-DEV_c-CRE_673503512292-ADGP_Hybrid+%7C+BKWS+-+BRO+%7C+Txt+~+GCP+~+General%23v1-KWID_43700077892264897-aud-606988877934:kwd-14471151-userloc_9069551&utm_term=KW_gcp-NET_g-PLAC_&&gad_source=1&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe51OhxU3XsqbYkohLOs3SjTjxqN6ATG3jthEKAhF6SOiQxLvDarWcl4aAguzEALw_wcB&gclsrc=aw.ds&hl=en
+          url: 'https://googlecloudcertified.credential.net/?_gl=1*1i3t4ns*_ga*MTQ0MDMyMTAyMS4xNzA1OTA3OTAy*_ga_FSDJZHHBH0*MTcwNTkwNzkwMS4xLjEuMTcwNTkwNzkzOC4wLjAuMA..&location=Kuwait%20City,%20Kuwait&lat=29.375859&lng=47.9774052&groups=205299
+          title: Google Cloud Certified Professional Machine Learning Engineer'
+
+        - certificate_url: https://www.credential.net/f6d53ab1-dcd6-4264-a289-f305ed611b7e#gs.3dr3c0
           date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+          date_start: '2023-08-02'
+          description: ''
+          icon: google
+          organization: Google
+          organization_url: https://cloud.google.com/gcp?utm_source=google&utm_medium=cpc&utm_campaign=emea-emea-all-ar-bkws-all-all-trial-b-gcp-1707574&utm_content=text-ad-none-any-DEV_c-CRE_673503512292-ADGP_Hybrid+%7C+BKWS+-+BRO+%7C+Txt+~+GCP+~+General%23v1-KWID_43700077892264897-aud-606988877934:kwd-14471151-userloc_9069551&utm_term=KW_gcp-NET_g-PLAC_&&gad_source=1&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe51OhxU3XsqbYkohLOs3SjTjxqN6ATG3jthEKAhF6SOiQxLvDarWcl4aAguzEALw_wcB&gclsrc=aw.ds&hl=en
+          title: Google Cloud Certified Associate Cloud Engineer  
+          url: 'https://googlecloudcertified.credential.net/?_gl=1*1cgbvwu*_ga*MTQ0MDMyMTAyMS4xNzA1OTA3OTAy*_ga_FSDJZHHBH0*MTcwNTkwNzkwMS4xLjEuMTcwNTkwODIwMC4wLjAuMA..&groups=105202&location=Kuwait%20City,%20Kuwait&lat=29.375859&lng=47.9774052'
+
+
+        - certificate_url: https://learn.microsoft.com/api/credentials/share/en-us/EngAhmedAbdurehman-5223/E2E05E649DFF22C8?sharingId=5653D8514D8BBA12
+          date_end: ''
+          date_start: '2023-04-19'
+          description: Designed and prepared a machine learning solution, explored and trained models, prepared them for deployment, and managed the deployment and retraining process.
+          icon: Microsoft
+          organization: Microsoft
+          organization_url: https://www.microsoft.com/en-ae
+          title: Microsoft Certified Azure Data Scientist Associate
+          #url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+          
         - certificate_url: https://www.datacamp.com
           date_end: '2020-12-21'
           date_start: '2020-07-01'
