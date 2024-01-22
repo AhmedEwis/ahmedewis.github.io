@@ -247,6 +247,18 @@ sections:
           organization_url: https://learn.365datascience.com/
           title: 'Introduction to R Programming'
           url: ''  
+
+        - certificate_url: https://learn.365datascience.com/c/4597add297/
+          date_end: ''
+          date_start: '2022-09-19'
+          description: ''
+          icon: 365datascience
+          organization: 365datascience.
+          organization_url: https://learn.365datascience.com/
+          title: 'Introduction to Business Analytics'
+          url: ''
+          
+          
     design:
       columns: '2'
   - block: collection
