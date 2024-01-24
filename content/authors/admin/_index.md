@@ -81,12 +81,12 @@ skills:
     items:
       - name: Reading
         description: ''
-        percent: 80
+        percent: 60
         icon: Reading
         icon_pack: fas
       - name: Training 
         description: ''
-        percent: 80
+        percent: 70
         icon: Training
         icon_pack: fas
       - name: Traveling
@@ -109,7 +109,7 @@ social:
     label: Follow me on Twitter
     display:
       header: true
-  - icon: kaggle # Alternatively, use `google-scholar` icon from `ai` icon pack
+  - icon: Kaggle # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://www.kaggle.com/ahmedewis
   - icon: github
