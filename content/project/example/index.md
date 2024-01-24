@@ -17,7 +17,7 @@ links:
     icon_pack: fab
     name: Follow
     url: https://twitter.com/sor3a95
-url_code: ''
+url_code: 'https://github.com/AhmedEwis/Ozone-Predictor'
 url_pdf: https://ahmedewis.github.io/uploads/Ahmed_Ewis_thesis.pdf
 url_slides: ''
 url_video: ''
