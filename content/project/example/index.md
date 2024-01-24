@@ -1,6 +1,6 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
+title: Air Pollution Assessment and Computational Air Quality Modeling in North Kuwait
+summary: The thesis titled "Air Pollution Assessment and Computational Air Quality Modeling in North Kuwait" by Ahmed Ewis focuses on evaluating air quality in the urban areas of Al Jahra and Saad Al Abdullah in Kuwait. It examines hourly pollution levels of nitrogen dioxide (NO2) and ozone (O3), using advanced statistical methods in R programming language to analyze their relationship and exceedances against the Kuwait Environmental Public Authority (KEPA) standard. The study employs various machine learning and deep learning models, including boosting techniques like CatBoost, to accurately predict hourly pollutant concentrations. The research findings highlight the significant seasonal variations in NO2 and O3 concentrations and the robust negative correlation between them. The study emphasizes the importance of monitoring and improving air quality in Kuwait, offering insights for future research and policy-making in the field of air quality assessment.
 tags:
   - Deep Learning
 date: '2016-04-27T00:00:00Z'
@@ -16,7 +16,7 @@ links:
   - icon: twitter
     icon_pack: fab
     name: Follow
-    url: https://twitter.com/georgecushen
+    url: https://twitter.com/sor3a95
 url_code: ''
 url_pdf: ''
 url_slides: ''
@@ -27,7 +27,7 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+Read thesis: 'content/project/example/Ahmed Ewis thesis.pdf'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
