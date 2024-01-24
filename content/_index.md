@@ -398,7 +398,7 @@ sections:
         - icon: skype
           icon_pack: fab
           name: Skype Me
-          link: 'skype:echo123?call'
+          link: 'live:eng_ahmed95_1'
         - icon: video
           icon_pack: fas
           name: Zoom Me
