@@ -36,7 +36,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: MSc Chemical Engineering
+    - course: MSc Chemical Engineering with GPA of 3.71/4.0
       institution: Kuwait University
       year: 2023
       thesis: Data Science and Machine Learning case study
@@ -45,7 +45,7 @@ education:
         text: 'Read Thesis'
         url: 'content/authors/admin/Ahmed Ewis Thesis.pdf'
 
-    - course: BSc in Chemical Engineering
+    - course: BSc in Chemical Engineering with GPA of 3.3/4.0
       institution: Kuwait University
       year: 2018
       GPA: 3.3/4.0
