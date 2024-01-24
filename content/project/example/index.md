@@ -9,7 +9,7 @@ date: '2024-01-08T00:00:00Z'
 external_link: ''
 
 image:
-  caption: Photo Air Pollution in Refineries
+  caption: Photo of Air Pollution in Refineries
   focal_point: Smart
 
 links:
@@ -18,7 +18,7 @@ links:
     name: Follow
     url: https://twitter.com/sor3a95
 url_code: ''
-url_pdf: 'static/uploads/Ahmed Ewis thesis.pdf'
+url_pdf: uploads/Ahmed_Ewis_thesis.pdf
 url_slides: ''
 url_video: ''
 
