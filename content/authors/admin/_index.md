@@ -39,11 +39,11 @@ education:
     - course: MSc Chemical Engineering
       institution: Kuwait University
       year: 2023
-      Thesis: Data Science and Machine Learning case study
-      GPA: 3.71/4.0
-      button:
-      text: 'Read Thesis'
-      url: 'content/authors/admin/Ahmed Ewis Thesis.pdf'
+    Thesis: Data Science and Machine Learning case study
+    GPA: 3.71/4.0
+    button:
+    text: 'Read Thesis'
+    url: 'content/authors/admin/Ahmed Ewis Thesis.pdf'
 
     - course: BSc in Chemical Engineering
       institution: Kuwait University
@@ -60,7 +60,7 @@ skills:
     items:
       - name: Python
         description: ''
-        #percent: 80
+        percent: 90
         icon: python
         icon_pack: fab
       - name: Data Science
@@ -70,9 +70,10 @@ skills:
         icon_pack: fas
       - name: SQL
         description: ''
-        percent: 40
+        percent: 75
         icon: database
         icon_pack: fas
+
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
