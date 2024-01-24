@@ -260,31 +260,31 @@ sections:
           url: ''
           
           
-  #   design:
-  #     columns: '2'
-  # - block: collection
-  #   id: posts
-  #   content:
-  #     title: Recent Posts
-  #     subtitle: ''
-  #     text: ''
-  #     # Choose how many pages you would like to display (0 = all pages)
-  #     count: 5
-  #     # Filter on criteria
-  #     filters:
-  #       folders:
-  #         - post
-  #       author: ""
-  #       category: ""
-  #       tag: ""
-  #       exclude_featured: false
-  #       exclude_future: false
-  #       exclude_past: false
-  #       publication_type: ""
-  #     # Choose how many pages you would like to offset by
-  #     offset: 0
-  #     # Page order: descending (desc) or ascending (asc) date.
-  #     order: desc
+    design:
+      columns: '2'
+  - block: collection
+    id: posts
+    content:
+      title: Recent Posts
+      subtitle: ''
+      text: ''
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 5
+      # Filter on criteria
+      filters:
+        folders:
+          - post
+        author: ""
+        category: ""
+        tag: ""
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        publication_type: ""
+      # Choose how many pages you would like to offset by
+      offset: 0
+      # Page order: descending (desc) or ascending (asc) date.
+      order: desc
     design:
       # Choose a layout view
       view: compact
@@ -375,21 +375,21 @@ sections:
       email: eng_ahmed95@outlook.com
       #phone: 888 888 88 88
       appointment_url: 'https://calendly.com'
-      address:
+      #address:
         #street: 450 Serra Mall
         #city: Stanford
         #region: CA
         #postcode: '94305'
-        country: Kuwait
-        country_code: KW
+        #country: Kuwait
+        #country_code: KW
       #directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
       office_hours:
         - 'Monday 17:00 to 21:00'
         - 'Friday 11:00 to 15:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
-      coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'  
+      #coordinates:
+        #latitude: '37.4275'
+        #longitude: '-122.1697'  
       contact_links:
         - icon: twitter
           icon_pack: fab
