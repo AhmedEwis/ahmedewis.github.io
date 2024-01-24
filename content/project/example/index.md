@@ -2,14 +2,14 @@
 title: Air Pollution Assessment and Computational Air Quality Modeling in North Kuwait
 summary: Ahmed Ewis's thesis analyzes air pollution in North Kuwait, focusing on NO2 and O3 levels. Using statistical and machine learning methods, it assesses pollution patterns and offers insights for air quality improvement.
 tags:
-  - Deep Learning
-date: '2016-04-27T00:00:00Z'
+  - Thesis Research
+date: '2024-01-08T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: Photo Air Pollution in Refineries
   focal_point: Smart
 
 links:
@@ -18,7 +18,7 @@ links:
     name: Follow
     url: https://twitter.com/sor3a95
 url_code: ''
-url_pdf: 'content/project/example/Ahmed Ewis thesis.pdf'
+url_pdf: 'static/uploads/Ahmed Ewis thesis.pdf'
 url_slides: ''
 url_video: ''
 
