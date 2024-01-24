@@ -18,7 +18,7 @@ links:
     name: Follow
     url: https://twitter.com/sor3a95
 url_code: ''
-url_pdf: uploads/Ahmed_Ewis_thesis.pdf
+url_pdf: https://ahmedewis.github.io/uploads/Ahmed_Ewis_thesis.pdf
 url_slides: ''
 url_video: ''
 
