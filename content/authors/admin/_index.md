@@ -48,7 +48,7 @@ education:
     - course: BSc in Chemical Engineering
       institution: Kuwait University
       year: 2018
-      GPA: 3.3/4.0
+    GPA: 3.3/4.0
     # - course: BSc in Artificial Intelligence
     #   institution: Massachusetts Institute of Technology
     #   year: 2008
