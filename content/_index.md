@@ -72,7 +72,8 @@ sections:
           description: |2-
               Responsibilities include:
 
-              * Deployment
+              * Deployment 
+              * Production
               * MLOps
               * DevOps
               * MVP and POC

@@ -79,20 +79,20 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-hiking
-        icon_pack: fas
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-        icon_pack: fas
-      - name: Photography
+      - name: Reading
         description: ''
         percent: 80
-        icon: camera-retro
+        icon: Reading
+        icon_pack: fas
+      - name: Training 
+        description: ''
+        percent: 80
+        icon: Training
+        icon_pack: fas
+      - name: Traveling
+        description: ''
+        percent: 80
+        icon: Traveling
         icon_pack: fas
 
 # Social/Academic Networking
@@ -109,9 +109,9 @@ social:
     label: Follow me on Twitter
     display:
       header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+  - icon: kaggle # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://www.kaggle.com/ahmedewis
   - icon: github
     icon_pack: fab
     link: https://github.com/AhmedEwis
