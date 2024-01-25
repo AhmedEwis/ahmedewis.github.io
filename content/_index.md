@@ -129,7 +129,7 @@ sections:
           date_end: ''
           date_start: '2023-09-11'
           description: ''
-          icon: google
+          icon: uploads/microsoft.png
           organization: Google
           title: Google Cloud Certified Professional Machine Learning Engineer
           organization_url: https://cloud.google.com/gcp?utm_source=google&utm_medium=cpc&utm_campaign=emea-emea-all-ar-bkws-all-all-trial-b-gcp-1707574&utm_content=text-ad-none-any-DEV_c-CRE_673503512292-ADGP_Hybrid+%7C+BKWS+-+BRO+%7C+Txt+~+GCP+~+General%23v1-KWID_43700077892264897-aud-606988877934:kwd-14471151-userloc_9069551&utm_term=KW_gcp-NET_g-PLAC_&&gad_source=1&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe51OhxU3XsqbYkohLOs3SjTjxqN6ATG3jthEKAhF6SOiQxLvDarWcl4aAguzEALw_wcB&gclsrc=aw.ds&hl=en
