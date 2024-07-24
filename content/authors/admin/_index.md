@@ -129,5 +129,5 @@ social:
 highlight_name: true
 ---
 
-Ahmed Ewis is a Microsoft Certified Data Scientist, Google Cloud Certified Associate Cloud Engineer, and Google Professional Machine Learning Engineer with 4+ years in the field of Data Science. He specializes in deriving data-driven solutions and robust problem-solving. With proficiency in analytics and leadership, He've transformed challenges into insights. Committed to growth and bridging technical knowledge with stakeholders.
+Ahmed Ewis is a Microsoft Certified Data Scientist, Google Cloud Certified Associate Cloud Engineer, and Google Professional Machine Learning Engineer with 5+ years in the field of Data Science. He specializes in deriving data-driven solutions and robust problem-solving. With proficiency in analytics and leadership, He've transformed challenges into insights. Committed to growth and bridging technical knowledge with stakeholders.
 {style="text-align: justify;"}
