@@ -62,6 +62,7 @@ sections:
       interests:
         - Data Science
         - Artificial Intelligence
+        - Voice AI & Custom Neural Voice
         - Cloud Solutions
       education:
         - degree: MSc Chemical Engineering
@@ -94,7 +95,7 @@ sections:
           points:
             - RAG and enterprise knowledge assistants
             - Multi-agent workflows, Copilot Studio
-            - Custom speech and voice AI
+            - Custom Neural Voice and speech AI
         - icon: fab fa-docker
           title: Production & MLOps
           points:
@@ -164,6 +165,7 @@ sections:
               dates: Feb 2025 – Present
               points:
                 - Architected AI solutions in production
+                - Custom Neural Voice & speech AI
                 - LLM, RAG & agentic AI on Azure
                 - Dockerized deployment & CI/CD
                 - Guardrails, security & governance
