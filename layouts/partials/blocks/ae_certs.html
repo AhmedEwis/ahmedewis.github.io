@@ -19,4 +19,18 @@
     </a>
     {{ end }}
   </div>
+  {{ with $c.courses }}
+  <div class="ae-courses">
+    <div class="ae-courses-title"><i class="fas fa-book-open" aria-hidden="true"></i> Courses &amp; Specializations</div>
+    <div class="ae-courses-list">
+      {{ range . }}
+      <a class="ae-course" href="{{ .url }}" target="_blank" rel="noopener">
+        <span class="ae-course-name">{{ .title }}</span>
+        <span class="ae-course-meta">{{ .issuer }} · {{ .year }}</span>
+        <i class="fas fa-arrow-right" aria-hidden="true"></i>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
 </div>

@@ -568,3 +568,23 @@ html { scroll-behavior: smooth; }
   .ae-logo { width: 48px; height: 48px; border-radius: 13px; }
   .ae-tl-tag { order: 3; }
 }
+
+// ---------- Courses (completion certificates) ----------
+.ae-courses { margin-top: 34px; }
+.ae-courses-title { font-weight: 700; color: var(--ae-ink); margin-bottom: 14px; text-align: center; }
+.ae-courses-title i { color: var(--ae-blue); margin-right: 6px; }
+.ae-courses-list { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+.ae-course {
+  display: inline-flex; align-items: center; gap: 12px;
+  padding: 12px 18px;
+  border-radius: 14px;
+  background: var(--ae-card);
+  border: 1px solid var(--ae-line);
+  box-shadow: var(--ae-shadow);
+  text-decoration: none !important;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+.ae-course:hover { transform: translateY(-3px); border-color: var(--ae-blue); }
+.ae-course-name { font-weight: 700; color: var(--ae-ink); font-size: 0.95rem; }
+.ae-course-meta { color: var(--ae-muted); font-size: 0.82rem; }
+.ae-course i { color: var(--ae-blue); font-size: 0.8rem; }

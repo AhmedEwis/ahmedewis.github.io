@@ -274,6 +274,11 @@ sections:
           icon: fas fa-award
           year: 2020
           url: https://www.coursera.org/account/accomplishments/specialization/certificate/YK5XBQKN4UKV
+      courses:
+        - title: Machine Learning
+          issuer: Stanford University · Coursera
+          year: 2020
+          url: https://www.coursera.org/account/accomplishments/certificate/CN5XY4YGKTVY
 
   - block: portfolio
     id: projects
