@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Data Scientist
+role: Data Scientist & AI Solution Architect
 
 # Organizations/Affiliations to show in About widget
 organizations:
