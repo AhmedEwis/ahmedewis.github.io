@@ -279,6 +279,22 @@ sections:
           issuer: Stanford University · Coursera
           year: 2020
           url: https://www.coursera.org/account/accomplishments/certificate/CN5XY4YGKTVY
+        - title: Convolutional Neural Networks in TensorFlow
+          issuer: DeepLearning.AI · Coursera
+          year: 2021
+          url: https://www.coursera.org/account/accomplishments/verify/MGAFNTRA9U5J
+        - title: Time Series Analysis with Python
+          issuer: 365 Data Science
+          year: 2021
+          url: https://learn.365datascience.com/certificates/BB-3E69BCB366/
+        - title: Customer Analytics in Python
+          issuer: 365 Data Science
+          year: 2021
+          url: https://learn.365datascience.com/certificates/BB-78C4085615/
+        - title: SQL + Tableau + Python
+          issuer: 365 Data Science
+          year: 2021
+          url: https://learn.365datascience.com/certificates/BB-118A04A53A/
 
   - block: portfolio
     id: projects
