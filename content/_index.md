@@ -5,30 +5,146 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: about.biography
+  - block: ae_hero
+    id: home
+    content:
+      eyebrow: Kuwait · Data & AI · Cloud
+      name: Ahmed Ewis
+      role: Data Scientist & AI Solution Architect
+      lead: I design, build, and ship **secure, production-grade AI** on Azure — from LLM and agentic solutions to classical machine learning — for enterprise banking.
+      chips:
+        - Azure AI Foundry
+        - LLMs & RAG
+        - Agentic AI
+        - MLOps
+        - Docker & CI/CD
+        - Guardrails & Security
+        - Data Governance
+      photo: images/ahmed-ewis.jpg
+      badge: Microsoft Certified Architect
+      buttons:
+        - label: Get in touch
+          url: '#contact'
+          icon: fas fa-paper-plane
+          style: ae-btn-primary
+        - label: LinkedIn
+          url: https://www.linkedin.com/in/ahmedewis95/
+          icon: fab fa-linkedin-in
+        - label: GitHub
+          url: https://github.com/AhmedEwis
+          icon: fab fa-github
+        - label: Kaggle
+          url: https://www.kaggle.com/ahmedewis
+          icon: fab fa-kaggle
+      stats:
+        - value: 6+
+          label: Years in Data & AI
+        - value: 10+
+          label: Production ML Models
+        - value: 6
+          label: Professional Certifications
+        - value: Enterprise
+          label: AI in Banking
+    design:
+      background:
+        gradient_start: '#0a1a33'
+        gradient_end: '#14305c'
+        gradient_angle: 135
+        text_color_light: true
+
+  - block: ae_about
     id: about
     content:
-      title: Biography
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-  - block: markdown
+      kicker: About
+      heading: Turning complex data into measurable business value
+      summary: |-
+        Microsoft Certified Data Scientist, Azure Solutions Architect, and Azure AI Apps and Agents Developer with over 6 years of experience delivering secure, scalable, AI-driven cloud solutions. As a Data Scientist and AI Solution Architect, I specialize in generative AI, agentic solutions, Azure architecture, and transforming complex data challenges into measurable business value. I combine strong analytics, technical leadership, and stakeholder communication to drive innovation and organizational growth.
+      interests:
+        - Data Science
+        - Artificial Intelligence
+        - Cloud Solutions
+      education:
+        - degree: MSc Chemical Engineering
+          institution: Kuwait University
+          year: 2023
+          gpa: 3.71/4.0
+          link:
+            label: Read thesis
+            url: uploads/Ahmed_Ewis_thesis.pdf
+        - degree: BSc Chemical Engineering
+          institution: Kuwait University
+          year: 2018
+          gpa: 3.3/4.0
+
+  - block: ae_cards
+    id: expertise
+    content:
+      kicker: What I do
+      heading: Core Expertise
+      subheading: End-to-end AI delivery, from architecture to secure production.
+      items:
+        - icon: fab fa-microsoft
+          title: Azure & Microsoft Foundry
+          points:
+            - Azure AI Foundry, Azure OpenAI, AI Speech
+            - Azure ML and App Service
+            - Cloud solution architecture
+        - icon: fas fa-robot
+          title: LLMs & Agentic AI
+          points:
+            - RAG and enterprise knowledge assistants
+            - Multi-agent workflows, Copilot Studio
+            - Custom speech and voice AI
+        - icon: fab fa-docker
+          title: Production & MLOps
+          points:
+            - Docker and CI/CD with GitHub Actions
+            - Monitoring, drift detection, retraining
+            - Enterprise deployment and publishing
+        - icon: fas fa-shield-alt
+          title: Guardrails & Security
+          points:
+            - AI guardrails and content safety
+            - Identity, RBAC, and secrets management
+            - Secure networking and private endpoints
+        - icon: fas fa-balance-scale
+          title: Data Governance & Compliance
+          points:
+            - GDPR and data residency
+            - Central Bank of Kuwait (CBK) CORF
+            - Responsible AI
+        - icon: fas fa-chart-line
+          title: Machine Learning
+          points:
+            - Churn, propensity, and segmentation models
+            - Forecasting and recommendation systems
+            - scikit-learn, PyTorch, TensorFlow
+
+  - block: ae_skills
     id: skills
     content:
-      title: Skills
-      text: |-
-        **Programming & ML:** Python, R, SQL Server, NoSQL, scikit-learn, TensorFlow, PyTorch, Keras, Julia, Git
+      kicker: Toolbox
+      heading: Skills
+      groups:
+        - name: Programming & ML
+          icon: fas fa-code
+          items: [Python, R, SQL Server, NoSQL, scikit-learn, TensorFlow, PyTorch, Keras, Julia, Git]
+        - name: Cloud & AI
+          icon: fas fa-cloud
+          items: [Azure Cloud, Azure AI Foundry, Azure ML, Google Cloud, AWS SageMaker, LLMs, LangChain, Generative AI, Computer Vision]
+        - name: Back End & DevOps
+          icon: fas fa-server
+          items: [Flask, FastAPI, Docker, GitHub Actions, Heroku, Firebase, Supabase]
+        - name: Data Governance & Compliance
+          icon: fas fa-user-shield
+          items: [GDPR, CBK CORF, CBK Regulations, Data Residency, Responsible AI]
+        - name: Reporting & Visualization
+          icon: fas fa-chart-pie
+          items: [Power BI, Tableau, Advanced Excel]
+        - name: Soft Skills
+          icon: fas fa-users
+          items: [Problem-Solving, Decision Making, Stakeholder Management, Technical Consulting, Mentoring, Cross-Functional Leadership]
 
-        **Cloud & AI:** Azure Cloud, Azure ML, Google Cloud, AWS SageMaker, LLMs, LangChain, Generative AI, Computer Vision
-
-        **Back End:** Flask, FastAPI, Docker, Heroku, Firebase, Supabase
-
-        **Data Governance & Compliance:** GDPR, Central Bank of Kuwait (CBK) Regulations, Data Residency, Responsible AI
-
-        **Reporting & Visualization:** Power BI, Tableau, Advanced Excel
-
-        **Soft Skills:** Problem-Solving, Decision Making, Stakeholder Management, Technical Consulting, Mentoring, Cross-Functional Leadership
-    design:
-      columns: '2'
   - block: experience
     id: experience
     content:
@@ -91,158 +207,56 @@ sections:
               * Stable Diffusion on AWS SageMaker
 
     design:
-      columns: '2'
-  - block: accomplishments
+      columns: '1'
+  - block: ae_certs
     id: certifications
     content:
-      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Certifications'
-      subtitle:
-      # Date format: https://docs.hugoblox.com/customization/#date-format
-      date_format: Jan 2006
-      # Accomplishments.
-      #   Add/remove as many `item` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      kicker: Credentials
+      heading: Certifications
       items:
-        - certificate_url: https://www.credential.net/7120ac05-f24c-4772-8f43-28718e7732ba#gs.3dqwe2
-          date_end: ''
-          date_start: '2023-09-11'
-          description: ''
-          image: images/microsoft.png
-          organization: Google
-          title: Google Cloud Certified Professional Machine Learning Engineer
-          organization_url: https://cloud.google.com/gcp?utm_source=google&utm_medium=cpc&utm_campaign=emea-emea-all-ar-bkws-all-all-trial-b-gcp-1707574&utm_content=text-ad-none-any-DEV_c-CRE_673503512292-ADGP_Hybrid+%7C+BKWS+-+BRO+%7C+Txt+~+GCP+~+General%23v1-KWID_43700077892264897-aud-606988877934:kwd-14471151-userloc_9069551&utm_term=KW_gcp-NET_g-PLAC_&&gad_source=1&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe51OhxU3XsqbYkohLOs3SjTjxqN6ATG3jthEKAhF6SOiQxLvDarWcl4aAguzEALw_wcB&gclsrc=aw.ds&hl=en
-          url: 'https://googlecloudcertified.credential.net/?_gl=1*1i3t4ns*_ga*MTQ0MDMyMTAyMS4xNzA1OTA3OTAy*_ga_FSDJZHHBH0*MTcwNTkwNzkwMS4xLjEuMTcwNTkwNzkzOC4wLjAuMA..&location=Kuwait%20City,%20Kuwait&lat=29.375859&lng=47.9774052&groups=205299
-          title: Google Cloud Certified Professional Machine Learning Engineer'
+        - code: AB-100
+          title: Agentic AI Business Solutions Architect Expert
+          issuer: Microsoft
+          issuer_key: microsoft
+          icon: fab fa-microsoft
+          year: 2026
+          url: https://learn.microsoft.com/en-us/users/ahmedewis95/credentials/2a226523424f7a12
+        - code: AI-103
+          title: Azure AI Apps and Agents Developer Associate
+          issuer: Microsoft
+          issuer_key: microsoft
+          icon: fab fa-microsoft
+          year: 2026
+          url: https://learn.microsoft.com/en-us/users/ahmedewis95/credentials/4122ab67d5476232
+        - code: PMLE
+          title: Professional Machine Learning Engineer
+          issuer: Google Cloud
+          issuer_key: google
+          icon: fab fa-google
+          year: 2023
+          url: https://www.credly.com/badges/72f631c9-392a-43aa-b19a-6ec3be6b5be6
+        - code: ACE
+          title: Associate Cloud Engineer
+          issuer: Google Cloud
+          issuer_key: google
+          icon: fab fa-google
+          year: 2023
+          url: https://www.credly.com/badges/ff87caa3-767b-4869-b38a-58e3edddadf2
+        - code: DP-100
+          title: Azure Data Scientist Associate
+          issuer: Microsoft
+          issuer_key: microsoft
+          icon: fab fa-microsoft
+          year: 2023
+          url: https://www.credly.com/badges/e9573cc9-8dd0-4d63-ae02-95547a18630e/
+        - code: IBM
+          title: Data Science Professional Certificate
+          issuer: IBM · Coursera
+          issuer_key: ibm
+          icon: fas fa-award
+          year: 2020
+          url: https://www.coursera.org/account/accomplishments/specialization/certificate/YK5XBQKN4UKV
 
-        - certificate_url: https://www.credential.net/f6d53ab1-dcd6-4264-a289-f305ed611b7e#gs.3dr3c0
-          date_end: ''
-          date_start: '2023-08-02'
-          description: ''
-          icon: google
-          organization: Google
-          organization_url: https://cloud.google.com/gcp?utm_source=google&utm_medium=cpc&utm_campaign=emea-emea-all-ar-bkws-all-all-trial-b-gcp-1707574&utm_content=text-ad-none-any-DEV_c-CRE_673503512292-ADGP_Hybrid+%7C+BKWS+-+BRO+%7C+Txt+~+GCP+~+General%23v1-KWID_43700077892264897-aud-606988877934:kwd-14471151-userloc_9069551&utm_term=KW_gcp-NET_g-PLAC_&&gad_source=1&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe51OhxU3XsqbYkohLOs3SjTjxqN6ATG3jthEKAhF6SOiQxLvDarWcl4aAguzEALw_wcB&gclsrc=aw.ds&hl=en
-          title: Google Cloud Certified Associate Cloud Engineer  
-          url: 'https://googlecloudcertified.credential.net/?_gl=1*1cgbvwu*_ga*MTQ0MDMyMTAyMS4xNzA1OTA3OTAy*_ga_FSDJZHHBH0*MTcwNTkwNzkwMS4xLjEuMTcwNTkwODIwMC4wLjAuMA..&groups=105202&location=Kuwait%20City,%20Kuwait&lat=29.375859&lng=47.9774052'
-
-
-        - certificate_url: https://learn.microsoft.com/api/credentials/share/en-us/EngAhmedAbdurehman-5223/E2E05E649DFF22C8?sharingId=5653D8514D8BBA12
-          date_end: ''
-          date_start: '2023-04-19'
-          description: ''
-          icon: /workspaces/ahmedewis.github.io/images/microsoft.svg
-          organization: Microsoft
-          organization_url: https://www.microsoft.com/en-ae
-          title: Microsoft Certified Azure Data Scientist Associate
-          url: ''
-
-        - certificate_url: https://www.coursera.org/account/accomplishments/specialization/certificate/YK5XBQKN4UKV
-          date_end: ''
-          date_start: '2020-09-23'
-          description: ''
-          icon: IBM
-          organization: IBM
-          organization_url: https://www.ibm.com/us-en
-          title: IBM Data Science  
-          url: ''
-        
-        - certificate_url: https://www.coursera.org/account/accomplishments/certificate/CN5XY4YGKTVY
-          date_end: ''
-          date_start: '2020-10-29'
-          description: ''
-          icon: Stanford
-          organization: Stanford University
-          organization_url: https://www.stanford.edu/
-          title: Machine Learning from Stanford University 
-          url: ''
-        
-
-        - certificate_url: https://coursera.org/share/4dfcb5e08ea964c0213a1b8b448a07b9
-          date_end: ''
-          date_start: '2021-01-08'
-          description: ''
-          icon: DeepLearning.AI
-          organization: DeepLearning.AI
-          organization_url: https://deeplearning.ai/
-          title: 'Convolutional Neural Networks in TensorFlow'
-          url: ''
-
-        - certificate_url: https://insidesherpa.s3.amazonaws.com/completion-certificates/KPMG/m7W4GMqeT3bh9Nb2c_KPMG_ta288qGvdAAwHBiPf_completion_certificate.pdf
-          date_end: ''
-          date_start: '2020-07-24'
-          description: ''
-          icon: KPMG
-          organization: KPMG.
-          organization_url: https://kpmg.com/xx/en/home.html
-          title: 'Data Analytics Consulting Virtual Internship'
-          url: ''
-
-        - certificate_url: https://learn.365datascience.com/c/942dff90b5/
-          date_end: ''
-          date_start: '2022-10-25'
-          description: ''
-          icon: 365datascience
-          organization: 365datascience
-          organization_url: https://learn.365datascience.com/
-          title: 'Data-Driven Business Growth'
-          url: ''
-        
-        - certificate_url: https://learn.365datascience.com/c/7849f92619/
-          date_end: ''
-          date_start: '2021-01-28'
-          description: ''
-          icon: 365datascience
-          organization: 365datascience.
-          organization_url: https://learn.365datascience.com/
-          title: 'Time Series Analysis with Python'
-          url: ''
-
-        - certificate_url: https://learn.365datascience.com/c/d88c7f262b/
-          date_end: ''
-          date_start: '2021-01-28'
-          description: ''
-          icon: 365datascience
-          organization: 365datascience.
-          organization_url: https://learn.365datascience.com/
-          title: 'Customer Analytics in Python'
-          url: ''  
-
-        - certificate_url: https://learn.365datascience.com/c/060201857e/
-          date_end: ''
-          date_start: '2021-01-28'
-          description: ''
-          icon: 365datascience
-          organization: 365datascience.
-          organization_url: https://learn.365datascience.com/
-          title: 'SQL + Tableau + Python'
-          url: ''
-          
-          
-        - certificate_url: https://learn.365datascience.com/c/df238b92c7/
-          date_end: ''
-          date_start: '2021-01-28'
-          description: ''
-          icon: 365datascience
-          organization: 365datascience.
-          organization_url: https://learn.365datascience.com/
-          title: 'Introduction to R Programming'
-          url: ''  
-
-        - certificate_url: https://learn.365datascience.com/c/4597add297/
-          date_end: ''
-          date_start: '2022-09-19'
-          description: ''
-          icon: 365datascience
-          organization: 365datascience.
-          organization_url: https://learn.365datascience.com/
-          title: 'Introduction to Business Analytics'
-          url: ''
-          
-          
-    design:
-      columns: '2'
   - block: portfolio
     id: projects
     content:

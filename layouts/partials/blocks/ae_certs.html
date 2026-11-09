@@ -1,0 +1,22 @@
+{{/* Custom certifications grid */}}
+{{ $c := .wcBlock.content }}
+<div class="col-12">
+  <div class="ae-section-head">
+    {{ with $c.kicker }}<span class="ae-kicker">{{ . }}</span>{{ end }}
+    <h2 class="ae-h2">{{ $c.heading }}</h2>
+  </div>
+  <div class="ae-certs">
+    {{ range $c.items }}
+    <a class="ae-cert ae-cert-{{ .issuer_key }}" href="{{ .url }}" target="_blank" rel="noopener">
+      <div class="ae-cert-top">
+        <div class="ae-cert-logo"><i class="{{ .icon }}" aria-hidden="true"></i></div>
+        <span class="ae-cert-year">{{ .year }}</span>
+      </div>
+      {{ with .code }}<span class="ae-cert-code">{{ . }}</span>{{ end }}
+      <div class="ae-cert-title">{{ .title }}</div>
+      <div class="ae-cert-issuer">{{ .issuer }}</div>
+      <span class="ae-cert-verify">Verify credential <i class="fas fa-external-link-alt" aria-hidden="true"></i></span>
+    </a>
+    {{ end }}
+  </div>
+</div>

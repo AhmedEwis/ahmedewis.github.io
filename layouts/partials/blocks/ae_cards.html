@@ -1,0 +1,20 @@
+{{/* Custom card grid: used for Core Expertise */}}
+{{ $c := .wcBlock.content }}
+<div class="col-12">
+  <div class="ae-section-head">
+    {{ with $c.kicker }}<span class="ae-kicker">{{ . }}</span>{{ end }}
+    <h2 class="ae-h2">{{ $c.heading }}</h2>
+    {{ with $c.subheading }}<p class="ae-sub">{{ . | markdownify }}</p>{{ end }}
+  </div>
+  <div class="ae-grid">
+    {{ range $c.items }}
+    <div class="ae-card">
+      <div class="ae-card-icon"><i class="{{ .icon }}" aria-hidden="true"></i></div>
+      <h3 class="ae-card-title">{{ .title }}</h3>
+      <ul class="ae-card-points">
+        {{ range .points }}<li>{{ . | markdownify }}</li>{{ end }}
+      </ul>
+    </div>
+    {{ end }}
+  </div>
+</div>

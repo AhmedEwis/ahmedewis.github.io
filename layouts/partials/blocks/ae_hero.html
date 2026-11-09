@@ -1,0 +1,36 @@
+{{/* Custom hero: photo, headline, chips, CTAs, stats */}}
+{{ $c := .wcBlock.content }}
+<div class="col-12">
+  <div class="ae-hero">
+    <div class="ae-hero-text">
+      {{ with $c.eyebrow }}<span class="ae-eyebrow"><span class="ae-dot"></span>{{ . }}</span>{{ end }}
+      <h1 class="ae-name">{{ $c.name }}</h1>
+      <p class="ae-role">{{ $c.role }}</p>
+      {{ with $c.lead }}<p class="ae-lead">{{ . | markdownify }}</p>{{ end }}
+      <div class="ae-chips">
+        {{ range $c.chips }}<span class="ae-chip">{{ . }}</span>{{ end }}
+      </div>
+      <div class="ae-cta">
+        {{ range $c.buttons }}
+        <a class="ae-btn {{ .style | default "ae-btn-ghost" }}" href="{{ .url }}"{{ if hasPrefix .url "http" }} target="_blank" rel="noopener"{{ end }}>
+          {{ with .icon }}<i class="{{ . }}" aria-hidden="true"></i>{{ end }}<span>{{ .label }}</span>
+        </a>
+        {{ end }}
+      </div>
+    </div>
+    <div class="ae-hero-photo">
+      <div class="ae-photo-ring">
+        <img src="{{ $c.photo | relURL }}" alt="{{ $c.name }}" width="360" height="360">
+      </div>
+      {{ with $c.badge }}<div class="ae-photo-badge"><i class="fas fa-shield-alt" aria-hidden="true"></i> {{ . }}</div>{{ end }}
+    </div>
+  </div>
+  <div class="ae-stats">
+    {{ range $c.stats }}
+    <div class="ae-stat">
+      <div class="ae-stat-num">{{ .value }}</div>
+      <div class="ae-stat-label">{{ .label }}</div>
+    </div>
+    {{ end }}
+  </div>
+</div>

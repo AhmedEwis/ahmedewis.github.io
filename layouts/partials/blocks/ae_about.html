@@ -1,0 +1,29 @@
+{{/* Custom about: summary, interests, education */}}
+{{ $c := .wcBlock.content }}
+<div class="col-12">
+  <div class="ae-about">
+    <div class="ae-about-main">
+      <span class="ae-kicker">{{ $c.kicker | default "About" }}</span>
+      <h2 class="ae-h2">{{ $c.heading }}</h2>
+      <div class="ae-about-text">{{ $c.summary | markdownify }}</div>
+    </div>
+    <div class="ae-about-side">
+      <div class="ae-side-card">
+        <h3><i class="fas fa-lightbulb" aria-hidden="true"></i> Interests</h3>
+        <ul class="ae-list">
+          {{ range $c.interests }}<li>{{ . }}</li>{{ end }}
+        </ul>
+      </div>
+      <div class="ae-side-card">
+        <h3><i class="fas fa-graduation-cap" aria-hidden="true"></i> Education</h3>
+        {{ range $c.education }}
+        <div class="ae-edu">
+          <div class="ae-edu-title">{{ .degree }}</div>
+          <div class="ae-edu-meta">{{ .institution }}{{ with .year }} · {{ . }}{{ end }}{{ with .gpa }} · GPA {{ . }}{{ end }}</div>
+          {{ with .link }}<a class="ae-link" href="{{ .url | relURL }}" target="_blank" rel="noopener">{{ .label }} <i class="fas fa-arrow-right" aria-hidden="true"></i></a>{{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
