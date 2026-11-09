@@ -42,14 +42,24 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: skills
+  - block: markdown
+    id: skills
     content:
       title: Skills
-      text: ''
-      # Choose a user to display skills from (a folder name within `content/authors/`)
-      username: admin
+      text: |-
+        **Programming & ML:** Python, R, SQL Server, NoSQL, scikit-learn, TensorFlow, PyTorch, Keras, Julia, Git
+
+        **Cloud & AI:** Azure Cloud, Azure ML, Google Cloud, AWS SageMaker, LLMs, LangChain, Generative AI, Computer Vision
+
+        **Back End:** Flask, FastAPI, Docker, Heroku, Firebase, Supabase
+
+        **Data Governance & Compliance:** GDPR, Central Bank of Kuwait (CBK) Regulations, Data Residency, Responsible AI
+
+        **Reporting & Visualization:** Power BI, Tableau, Advanced Excel
+
+        **Soft Skills:** Problem-Solving, Decision Making, Stakeholder Management, Technical Consulting, Mentoring, Cross-Functional Leadership
     design:
-      columns: '1'
+      columns: '2'
   - block: experience
     content:
       title: Experience
@@ -62,53 +72,53 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Sr. Data Scientist
+        - title: Data Scientist
           company: Warba Bank
           company_url: 'https://www.warbabank.com/'
           company_logo: org-w
           location: Kuwait
-          date_start: '2023-02-06'
+          date_start: '2025-02-01'
           date_end: ''
           description: |2-
-              Responsibilities include:
-
-              * Deployment 
-              * Production
-              * MLOps
-              * DevOps
-              * MVP and POC
-        - title: Data Scientist 
+              * Generative and agentic AI solutions on Azure
+              * Enterprise LLM and RAG assistants
+              * Production deployment on Azure, Docker, and CI/CD
+              * Data governance and compliance (GDPR, CBK)
+        - title: Senior Data Engineer
           company: Warba Bank
           company_url: 'https://www.warbabank.com/'
           company_logo: org-w
           location: Kuwait
-          date_start: '2022-02-06'
+          date_start: '2023-02-01'
+          date_end: '2025-02-01'
+          description: |2-
+              * Enterprise AI deployment across cloud and on-premises
+              * 10+ production machine learning models
+              * MLOps: monitoring, drift detection, and retraining
+              * Customer segmentation and predictive analytics
+        - title: Data Engineer
+          company: Warba Bank
+          company_url: 'https://www.warbabank.com/'
+          company_logo: org-w
+          location: Kuwait
+          date_start: '2022-02-01'
           date_end: '2023-02-01'
-          description: Enhanced financial analytics with machine learning models, boosting conversion rates by 30% and profitability by 10%, while introducing novel customer segmentation and increasing data processing efficiency by 30%.
-        - title: Data Scientist and AI Specialist
+          description: |2-
+              * Churn and propensity models (cards, financing)
+              * Forecasting and recommendation systems
+              * Analytics and reporting automation
+        - title: AI Engineer (Part Time)
           company: Kliky AI
           company_url: 'https://kliky.ai/en/'
           company_logo: org-k
-          location: Remote - Kuwait
-          date_start: '2020-12-02'
-          date_end: '2022-02-01'
-          description: Expert in deep learning and GANs with PyTorch, enhanced AI tasks and speech recognition accuracy using advanced models and NLP, and generated NFTs through stable diffusion on AWS SageMaker.
-        - title: Business Development Engineer
-          company: Bait Al Aseel for General Trading & Contracting Group 
-          company_url: 'https://baitalaseel.com/'
-          company_logo: org-b
           location: Kuwait
-          date_start: '2018-05-01'
-          date_end: '2020-12-01'
-          description: Oversaw tech documentation, analyzed data for precise pricing forecasts, streamlined cost estimation with Excel, and implemented cost-reducing processes, enhancing efficiency and accuracy.
-        - title: Data Analyst and Teacher Assistant - Part time
-          company: Kuwait University 
-          company_url: 'http://kuweb.ku.edu.kw/ku/index.htm'
-          company_logo: org-ku
-          location: Kuwait
-          date_start: '2018-03-01'
-          date_end: '2021-12-01'
-          description: Enhanced student learning and research efficacy with advanced data techniques, achieving significant improvements in model accuracy, process efficiency, and data accuracy.  
+          date_start: '2021-07-01'
+          date_end: '2022-12-01'
+          description: |2-
+              * Generative AI with PyTorch and TensorFlow (GANs)
+              * Text-to-video MVP
+              * Fine-tuning BERT and CLIP
+              * Stable Diffusion on AWS SageMaker
 
     design:
       columns: '2'
@@ -262,33 +272,6 @@ sections:
           
     design:
       columns: '2'
-  - block: collection
-    id: posts
-    content:
-      title: Recent Posts
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: compact
-      columns: '2'
   - block: portfolio
     id: projects
     content:
@@ -296,74 +279,12 @@ sections:
       filters:
         folders:
           - project
-      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-      default_button_index: 0
-      # Filter toolbar (optional).
-      # Add or remove as many filters (`filter_button` instances) as you like.
-      # To show all items, set `tag` to "*".
-      # To filter by a specific tag, set `tag` to an existing tag name.
-      # To remove the toolbar, delete the entire `filter_button` block.
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  - block: markdown
-  #   content:
-  #     title: Gallery
-  #     subtitle: ''
-  #     text: |-
-  #       {{< gallery album="demo" >}}
-  #   design:
-  #     columns: '1'
-  # - block: collection
-  #   id: featured
-  #   content:
-  #     title: Featured Publications
-  #     filters:
-  #       folders:
-  #         - publication
-  #       featured_only: true
-  #   design:
-  #     columns: '2'
-  #     view: card
-  # - block: collection
-  #   content:
-  #     title: Recent Publications
-  #     text: |-
-  #       {{% callout note %}}
-  #       Quickly discover relevant content by [filtering publications](./publication/).
-  #       {{% /callout %}}
-  #     filters:
-  #       folders:
-  #         - publication
-  #       exclude_featured: true
-  #   design:
-  #     columns: '2'
-  #     view: citation
-  # - block: collection
-  #   id: talks
-  #   content:
-  #     title: Recent & Upcoming Talks
-  #     filters:
-  #       folders:
-  #         - event
-  #   design:
-  #     columns: '2'
-  #     view: compact
-  # - block: tag_cloud
-  #   content:
-  #     title: Popular Topics
-    design:
-      columns: '2'
   - block: contact
     id: contact
     content:
