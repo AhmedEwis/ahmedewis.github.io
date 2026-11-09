@@ -1,0 +1,39 @@
+{{/* Custom experience timeline grouped by company */}}
+{{ $c := .wcBlock.content }}
+<div class="col-12">
+  <div class="ae-section-head">
+    {{ with $c.kicker }}<span class="ae-kicker">{{ . }}</span>{{ end }}
+    <h2 class="ae-h2">{{ $c.heading }}</h2>
+    {{ with $c.subheading }}<p class="ae-sub">{{ . | markdownify }}</p>{{ end }}
+  </div>
+  <div class="ae-tl">
+    {{ range $c.companies }}
+    <div class="ae-tl-item">
+      <div class="ae-tl-node"><span></span></div>
+      <div class="ae-tl-card ae-tone-{{ .tone | default "blue" }}">
+        <div class="ae-tl-head">
+          <div class="ae-logo"><span>{{ .mark }}</span></div>
+          <div class="ae-tl-company">
+            <div class="ae-tl-name">{{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}{{ .name }}{{ with .url }}</a>{{ end }}</div>
+            <div class="ae-tl-meta"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> {{ .location }}<span class="ae-sep">•</span>{{ .period }}</div>
+          </div>
+          {{ with .tag }}<span class="ae-tl-tag">{{ . }}</span>{{ end }}
+        </div>
+        <div class="ae-roles {{ if gt (len .roles) 1 }}ae-roles-multi{{ end }}">
+          {{ range .roles }}
+          <div class="ae-role">
+            <div class="ae-role-head">
+              <div class="ae-role-title">{{ .title }}</div>
+              <span class="ae-role-date">{{ .dates }}</span>
+            </div>
+            <ul class="ae-role-points">
+              {{ range .points }}<li>{{ . | markdownify }}</li>{{ end }}
+            </ul>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>

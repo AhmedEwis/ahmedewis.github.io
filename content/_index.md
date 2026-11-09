@@ -145,69 +145,85 @@ sections:
           icon: fas fa-users
           items: [Problem-Solving, Decision Making, Stakeholder Management, Technical Consulting, Mentoring, Cross-Functional Leadership]
 
-  - block: experience
+  - block: ae_timeline
     id: experience
     content:
-      title: Experience
-      # Date format for experience
-      #   Refer to https://docs.hugoblox.com/customization/#date-format
-      date_format: Jan 2006
-      # Experiences.
-      #   Add/remove as many `experience` items below as you like.
-      #   Required fields are `title`, `company`, and `date_start`.
-      #   Leave `date_end` empty if it's your current employer.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - title: Data Scientist
-          company: Warba Bank
-          company_url: 'https://www.warbabank.com/'
-          company_logo: org-w
+      kicker: Career
+      heading: Experience
+      subheading: From engineering foundations to enterprise AI in production.
+      companies:
+        - name: Warba Bank
+          mark: W
+          tone: blue
+          url: https://www.warbabank.com/
           location: Kuwait
-          date_start: '2025-02-01'
-          date_end: ''
-          description: |2-
-              * Generative and agentic AI solutions on Azure
-              * Enterprise LLM and RAG assistants
-              * Production deployment on Azure, Docker, and CI/CD
-              * Data governance and compliance (GDPR, CBK)
-        - title: Senior Data Engineer
-          company: Warba Bank
-          company_url: 'https://www.warbabank.com/'
-          company_logo: org-w
+          period: Feb 2022 – Present
+          tag: 2 promotions
+          roles:
+            - title: Data Scientist
+              dates: Feb 2025 – Present
+              points:
+                - Architected AI solutions in production
+                - LLM, RAG & agentic AI on Azure
+                - Dockerized deployment & CI/CD
+                - Guardrails, security & governance
+            - title: Senior Data Engineer
+              dates: Feb 2023 – Feb 2025
+              points:
+                - Led machine learning into production
+                - Architected 10+ production ML models
+                - MLOps — monitoring, drift & retraining
+                - Cloud & on-premises deployment
+            - title: Data Engineer
+              dates: Feb 2022 – Feb 2023
+              points:
+                - Development of machine learning models
+                - Churn, propensity & segmentation
+                - Automated dashboards & reporting
+        - name: Kliky AI
+          mark: K
+          tone: violet
+          url: https://kliky.ai/en/
           location: Kuwait
-          date_start: '2023-02-01'
-          date_end: '2025-02-01'
-          description: |2-
-              * Enterprise AI deployment across cloud and on-premises
-              * 10+ production machine learning models
-              * MLOps: monitoring, drift detection, and retraining
-              * Customer segmentation and predictive analytics
-        - title: Data Engineer
-          company: Warba Bank
-          company_url: 'https://www.warbabank.com/'
-          company_logo: org-w
+          period: Jul 2021 – Dec 2022
+          tag: Part time
+          roles:
+            - title: AI Engineer
+              dates: Jul 2021 – Dec 2022
+              points:
+                - Led AI development end to end
+                - Generative AI with GANs
+                - Text-to-video MVP
+                - Fine-tuning BERT & CLIP
+        - name: Bait Al Aseel Group
+          mark: BA
+          tone: amber
+          url: https://baitalaseel.com/
           location: Kuwait
-          date_start: '2022-02-01'
-          date_end: '2023-02-01'
-          description: |2-
-              * Churn and propensity models (cards, financing)
-              * Forecasting and recommendation systems
-              * Analytics and reporting automation
-        - title: AI Engineer (Part Time)
-          company: Kliky AI
-          company_url: 'https://kliky.ai/en/'
-          company_logo: org-k
+          period: Aug 2018 – Jan 2022
+          roles:
+            - title: Chemical Engineer
+              dates: Aug 2018 – Jan 2022
+              points:
+                - Data analysis & forecasting
+                - Costing sheets & pricing
+                - Tendering
+                - Technical documentation
+        - name: Kuwait University
+          mark: KU
+          tone: teal
+          url: https://ku.edu.kw/
           location: Kuwait
-          date_start: '2021-07-01'
-          date_end: '2022-12-01'
-          description: |2-
-              * Generative AI with PyTorch and TensorFlow (GANs)
-              * Text-to-video MVP
-              * Fine-tuning BERT and CLIP
-              * Stable Diffusion on AWS SageMaker
+          period: Mar 2018 – Feb 2021
+          tag: Part time
+          roles:
+            - title: Teaching Assistant & Research Co-Supervisor
+              dates: Mar 2018 – Feb 2021
+              points:
+                - Programming courses for youth
+                - Research data analysis & mining
+                - Student research support
 
-    design:
-      columns: '1'
   - block: ae_certs
     id: certifications
     content:
