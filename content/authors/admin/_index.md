@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Eng. Ahmed Ewis
+title: Ahmed Ewis
 
 # Name pronunciation (optional)
 name_pronunciation: 
