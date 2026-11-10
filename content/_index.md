@@ -3,6 +3,8 @@
 title: ''
 date: 2022-10-24
 type: landing
+seo:
+  title: 'Ahmed Ewis | Data Scientist & AI Solution Architect – Kuwait'
 
 sections:
   - block: ae_hero
