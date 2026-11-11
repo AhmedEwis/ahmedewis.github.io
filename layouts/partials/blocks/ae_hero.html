@@ -5,6 +5,7 @@
     <div class="ae-hero-text">
       {{ with $c.eyebrow }}<span class="ae-eyebrow"><span class="ae-dot"></span>{{ . }}</span>{{ end }}
       <h1 class="ae-name">{{ $c.name }}</h1>
+      {{ with $c.name_ar }}<p class="ae-name-ar" lang="ar" dir="rtl">{{ . }}</p>{{ end }}
       <p class="ae-role">{{ $c.role }}</p>
       {{ with $c.lead }}<p class="ae-lead">{{ . | markdownify }}</p>{{ end }}
       <div class="ae-chips">

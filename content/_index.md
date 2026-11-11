@@ -12,6 +12,7 @@ sections:
     content:
       eyebrow: Kuwait · Data & AI · Cloud
       name: Ahmed Ewis
+      name_ar: أحمد عويس
       role: Data Scientist & AI Solution Architect
       lead: I design, build, and ship **secure, production-grade AI** on Azure — from LLM and agentic solutions to classical machine learning — for enterprise banking.
       chips:
